@@ -1,5 +1,6 @@
 <html>
-<meta http-equiv="refresh" content="58; URL=https://data.indoubt.at/scripts/tera/server-status-eu.d3" />
+<!-- Reload this side every 58secs. -->
+<meta http-equiv="refresh" content="58; URL=server-status-eu.php" />
 
 <!-- Countdown Script -->
 <script language="JavaScript" type="text/javascript">
@@ -38,7 +39,7 @@ function check($ip, $port){
 
 <!-- Account / Login Server -->
 <?php
-if(check("79.110.94.195", "443")) echo ("<div align='center'>Account / Login Server<br><img src='img/online.png' alt='online'><br></div>");
+if(check("IP", "PORT")) echo ("<div align='center'>Account / Login Server<br><img src='img/online.png' alt='online'><br></div>");
 else echo ("<div align='center'>Login Server<br><img src='img/offline.png' alt='offline'><br></div>");
 ?>
 <!-- /Account / Login Server -->
@@ -75,20 +76,23 @@ else echo ("<div align='center'>Login Server<br><img src='img/offline.png' alt='
 						PvP</td>
 <!-- Arachnea / DE / PvP -->
 					<td style="text-align: center;">Arachnea<br>
-<?php if(check("arachnea.indoubt.at", "7807")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 </td>
 <!-- Essenia / EN / PvP -->
 					<td style="text-align: center;">Essenia<br>
-<?php if(check("essenia.indoubt.at", "7803")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 </td>
 <!-- Callida / FR / PvP -->
 					<td style="text-align: center;">Callida<br>
-<?php if(check("callida.indoubt.at", "7809")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 						</td>
 				</tr>
@@ -97,14 +101,16 @@ else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline
 						</td>
 <!-- Lok / DE / PvP -->
 					<td style="text-align: center;">Lok<br>
-<?php if(check("lok.indoubt.at", "7808")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php 
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 						</td>
 <!-- Samael / EN / PvP -->
 					<td style="text-align: center;">Samael<br>
-<?php if(check("samael.indoubt.at", "7811")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php 
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 						</td>
 					<td style="text-align: center;">
@@ -117,20 +123,23 @@ else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline
 						PvE</td>
 <!-- Elion / DE / PvE -->
 					<td style="text-align: center;">Elion<br>
-<?php if(check("elion.indoubt.at", "7806")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 						</td>
 <!-- Allemanthea / EN / PvE -->
 					<td style="text-align: center;">Allemantheia<br>
-<?php if(check("allemantheia.indoubt.at", "7802")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php 
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 						</td>
 <!-- Ellinu / FR / PvP -->
 					<td style="text-align: center;">Ellinu<br>
-<?php if(check("ellinu.indoubt.at", "7810")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 						</td>
 				</tr>
@@ -139,14 +148,16 @@ else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline
 						</td>
 <!-- Kaia / DE / PvE -->
 					<td style="text-align: center;">Kaia<br>
-<?php if(check("kaia.indoubt.at", "7805")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 						</td>
 <!-- Velik / EN / PvE -->
 					<td style="text-align: center;">Velik<br>
-<?php if(check("velik.indoubt.at", "7801")) echo ("<img src='https://img.indoubt.at/tera/misc/online.png' alt='online'>");
-else echo ("<img src='https://img.indoubt.at/tera/misc/offline.png' alt='offline'>");
+<?php
+if(check("IP", "PORT")) echo ("<img src='img/online.png' alt='online'>");
+else echo ("<img src='img/offline.png' alt='offline'>");
 ?>
 						</td>
 					<td>
