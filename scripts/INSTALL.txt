@@ -1,0 +1,37 @@
+Requirements:
+- Webhost with php +4
+- IP-tables with permit outgoing connections to the target node
+
+*************************************
+* DE
+*************************************
+
+1.) Die Funktion in Dein php Script kopieren
+2.) Die Abfrage kopieren und die Werte IP und PORT durch die des Nodes ersetzen (Bei IP kann die IP oder der Hostname verwendet werden)
+3.) Fertig
+
+WhoTo IP / Port Abfragen:
+
+Als Beispiel mit Tera-Online^^ unter Windows
+
+1.) Tera starten und auf den gewünschten Server verbinden
+2.) cmd.exe als Administrator ausführen (C:/WINDOWS/SYSTEM32)
+3.) 'netstat -b' eingeben und Zeile mit TERA.exe suchen
+4.) Die Zeile über TERA.exe enthält die benötigten Angaben des jew. Nodes
+
+**************************************
+* EN
+**************************************
+
+1.) Copy the php function into your script
+2.) change the IP and PORT values into the request script to the real one, you can use the hostname instead of the ip-adress too
+3.) try it 
+
+WhoTo find out the needed values:
+
+As example here for TERA-Onine under windows
+
+1.) Start Tera-Online and connect to the needed server
+2.) run the cmd.exe as admin
+3.) type 'netstat -b' and search for TERA.exe
+4.) the line aboive TERA.exe includes the needed values, hf
