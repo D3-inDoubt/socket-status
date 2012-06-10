@@ -2,6 +2,12 @@ Requirements:
 - Webhost with php +4
 - IP-tables with permit outgoing connections to the target node
 
+Example / Beispiel Scripts / Anzeige
+
+https://d3.indoubt.at/projekte/server-status/simple.php
+https://d3.indoubt.at/projekte/server-status/server-status-eu.php
+
+
 *************************************
 * DE
 *************************************
